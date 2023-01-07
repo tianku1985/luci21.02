@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-05-26 17:57+0200\n"
-"PO-Revision-Date: 2022-07-02 09:22+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2022-07-24 16:11+0000\n"
+"Last-Translator: Hannu Nyman <hannu.nyman@iki.fi>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/openwrt/luci/de/"
 ">\n"
 "Language: de\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
+"X-Generator: Weblate 4.14-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1513
 msgid "%.1f dB"
@@ -432,12 +432,12 @@ msgid "Active Connections"
 msgstr "Aktive Verbindungen"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:34
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:174
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:182
 msgid "Active DHCP Leases"
 msgstr "Aktive DHCP-Leases"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:53
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:176
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:184
 msgid "Active DHCPv6 Leases"
 msgstr "Aktive DHCPv6-Leases"
 
@@ -1750,7 +1750,7 @@ msgid "DTIM Interval"
 msgstr "DTIM-Intervall"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:58
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:128
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:136
 msgid "DUID"
 msgstr "DUID"
 
@@ -1880,7 +1880,6 @@ msgstr "Ziel-Zone"
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:280
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:356
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:392
-#, fuzzy
 msgid "Device"
 msgstr "Gerät"
 
@@ -2610,11 +2609,11 @@ msgstr "Zusätzliche pppd-Optionen"
 msgid "Extra sstpc options"
 msgstr "Zusätzliche sstpc-Optionen"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1529
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1530
 msgid "FT over DS"
 msgstr "FT-über-DS"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1530
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1529
 msgid "FT over the Air"
 msgstr "FT-drahtlos"
 
@@ -3120,7 +3119,7 @@ msgstr "Hoch"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:56
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2158
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:126
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:134
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:225
 msgid "Host"
 msgstr "Host"
@@ -3327,7 +3326,7 @@ msgstr "IPv6-Upstream"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/static.js:183
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:57
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:127
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:135
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:174
 msgid "IPv6 address"
 msgstr "IPv6 Adresse"
@@ -3923,7 +3922,7 @@ msgstr "Laufzeit"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:40
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:59
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:90
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:129
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:137
 msgid "Lease time remaining"
 msgstr "Verbleibende Gültigkeit"
 
@@ -4709,6 +4708,10 @@ msgstr "Neighbour-Cache-Gültigkeitsdauer"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:182
 msgid "Network"
 msgstr "Netzwerk"
+
+#: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:72
+msgid "Network Mode"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1998
 msgid "Network SSID"
@@ -6405,7 +6408,6 @@ msgid "Service Name"
 msgstr "Service-Name"
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:88
-#: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:72
 msgid "Service Type"
 msgstr "Service-Typ"
 
@@ -6417,8 +6419,8 @@ msgstr "Dienste"
 msgid "Session expired"
 msgstr "Sitzung abgelaufen"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:118
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:167
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:126
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:175
 msgid "Set Static"
 msgstr "Statisch setzen"
 
@@ -6982,7 +6984,7 @@ msgid "Static IPv6 Routes"
 msgstr "Statische IPv6 Routen"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:91
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:130
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:138
 msgid "Static Lease"
 msgstr "Statische Reservierung"
 
@@ -7615,10 +7617,10 @@ msgstr ""
 msgid "The value is overridden by configuration. Original: %s"
 msgstr "Dieser Wert ist durch Konfiguration überschrieben. Originalwert: %s"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:649
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:681
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:122
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:171
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:658
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:690
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:130
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:179
 msgid "There are no active leases"
 msgstr "Es gibt keine aktiven Leases"
 
@@ -8753,9 +8755,9 @@ msgid "e.g: dump"
 msgstr "z.B.: abwerfen"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:638
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:659
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:668
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:101
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:140
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:148
 msgid "expired"
 msgstr "abgelaufen"
 
@@ -8956,9 +8958,9 @@ msgstr "unbekannt"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:429
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:636
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:657
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:666
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:99
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:138
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:146
 msgid "unlimited"
 msgstr "unlimitiert"
 
